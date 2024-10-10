@@ -1,0 +1,23 @@
+{
+    "name": "claserre9/code-coverage-manager",
+    "description": "A PHP library for managing and collecting code coverage data in web applications and CLI tools.",
+    "authors": [
+        {
+            "name": "Clifford Laserre",
+            "email": "claserre9@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Claserre9\\CodeCoverageManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "phpunit/php-code-coverage": "^9.2",
+        "phpunit/php-file-iterator": "^3.0",
+        "phpunit/phpcov": "^8.2"
+    }
+}
